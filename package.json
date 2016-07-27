@@ -1,0 +1,47 @@
+{
+  "name": "nozus-web",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^2.9.24",
+    "ejs": "^0.8.8",
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-coffee": "0.13.0",
+    "grunt-contrib-concat": "0.5.1",
+    "grunt-contrib-copy": "0.5.0",
+    "grunt-contrib-cssmin": "0.9.0",
+    "grunt-contrib-jst": "0.6.0",
+    "grunt-contrib-less": "1.1.0",
+    "grunt-contrib-uglify": "0.7.0",
+    "grunt-contrib-watch": "0.5.3",
+    "grunt-sails-linker": "~0.10.1",
+    "grunt-sync": "0.2.4",
+    "include-all": "~0.1.6",
+    "jsonwebtoken": "^7.0.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.0.0",
+    "passport-facebook-token": "^1.0.0",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "~0.12.3",
+    "sails-disk": "~0.10.9",
+    "sails-mysql": "^0.11.5",
+    "sails-postgresql": "^0.10.14"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eswann/nozus-web.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": ""
+}
